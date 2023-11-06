@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marcador</title>
+</head>
+<body>
+    <h1>Marcador</h1>
+    <table>
+        <tr>
+            <th>Intentos</th>
+        </tr>
+        {% for winner in winners %}
+        <tr>
+            <td>{{ attempts }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <a href="/">Volver al juego</a>
+</body>
+</html>
